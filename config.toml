@@ -1,0 +1,27 @@
+baseURL = "http://sabbagh.dev/"
+languageCode = "en-us"
+title = "Rafael Sabbagh"
+theme = "toha"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.pt-br]
+    languageName = "Português"
+    weight = 2
+
+[markup]
+  [tableOfContents]
+    startLevel = 2
+    endLevel = 6
+    ordered = false
+
+enableEmoji = true
+
+[params]
+    gitRepo = "https://github.com/hugo-toha/rafasabb.github.io"
+    enableBlogPost = true
+    enableTOC = true
+    [newsletter]
+      enable = false
